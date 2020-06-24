@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+body{
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+section:before {
+    height: 80px;
+    content: "";
+    display:block;
+}
+
+/*Inicio: Cores de Fundo*/
+.bg-branco{
+    background-color: #ffffff;
+}
+
+.bg-cinza{
+    background-color: #f8f8f8;
+}
+
+.bg-azul{
+    background-color: #5dd1d4;
+}
+/*Fim: Cores de Fundo*/
+
+/*Inicio: Fontes/Textos */
+.titulo{
+    font-size: 50px;    
+    border-bottom:3px solid;
+    text-decoration-color: #09b5cc;
+    color: #09b0c6;
+    padding-bottom: 2px; 
+    
+}
+
+.titulo-bold{
+    color: #308ea3;
+    font-weight: bold;
+}
+
+.sub-titulo{
+    font-size: 32px;        
+    text-decoration-color: #09b5cc;
+    color: #09b5cc;
+}
+
+.texto{
+    color: #308ea3;
+}
+
+.texto-azul-Claro{
+    color: #09b5cc;
+    font-weight: bold;
+}
+/*Fim: Fontes/Textos */
+
+/*Inicio: Paddings*/
+.pl-70{
+    padding-left: 70px;
+}
+
+.pb-15{
+    padding-bottom: 15px;
+}
+
+.pt-15{
+    padding-top: 15px;
+}
+
+.pb-30{
+    padding-bottom: 30px;
+}
+
+.pl-30{
+    padding-left: 30px;
+}
+
+.pt-40{
+    padding-top: 40px;
+}
+
+.pb-40{
+    padding-bottom: 40px;
+}
+
+.pt-50{
+    padding-top: 50px;
+}
+
+.pb-50{
+    padding-bottom: 50px;
+}
+
+.pl-50{
+    padding-left: 50px;
+}
+
+.pt-70{
+    padding-top: 70px;
+}
+
+.pb-70{
+    padding-bottom: 70px;
+}
+
+.pt-80{
+    padding-top: 80px;
+}
+
+.pl-80{
+    padding-left: 80px;
+}
+
+.pt-100{
+    padding-top: 100px;
+}
+
+.pb-100{
+    padding-bottom: 100px;
+}
+/*Fim: Paddings*/
+
+/* Inicio: Header */
+#magic-line {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100px;
+    height: 5px;
+    background: #09b0c6;
+    
+}
+  
+.navbar-blue .navbar-brand {
+    color: #09b0c6;
+}
+
+.navbar-blue .navbar-brand:hover, .navbar-blue .navbar-brand:focus {
+    color: rgba(9, 181, 204, 0.75);
+}
+
+.navbar-blue .navbar-nav .nav-link {
+    color: #09b0c6;
+}
+
+.navbar-blue .navbar-nav .nav-link:hover, .navbar-blue .navbar-nav .nav-link:focus {
+    color: rgba(9, 181, 204, 0.75);
+}
+
+.navbar-blue .navbar-nav .nav-link.disabled {
+    color: rgba(9, 181, 204, 0.25);
+}
+
+.navbar-blue .navbar-nav .show > .nav-link,
+.navbar-blue .navbar-nav .active > .nav-link,
+.navbar-blue .navbar-nav .nav-link.show,
+.navbar-blue .navbar-nav .nav-link.active {
+    color: rgba(9, 181, 204, 0.75);
+}
+
+.navbar-blue .navbar-toggler {
+    color: #09b0c6;
+    border-color: rgba(9, 181, 204, 0.95);
+}
+
+.navbar-blue .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(9, 181, 204, 0.95)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-blue .navbar-text {
+    color: #09b0c6;
+}
+
+.navbar-blue .navbar-text a {
+    color: #09b0c6;
+}
+
+.navbar-blue .navbar-text a:hover, .navbar-blue .navbar-text a:focus {
+    color: rgba(9, 181, 204, 0.75);
+}
+/* Fim: Header */
+
+/*Inicio: Banners Carousel*/
+.carousel-inner img {
+    width: 100%;
+    height: 100%;       
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none; 
+    
+}
+.carousel-control .fa {
+    font-size: 35px; 
+}
+.carousel-control .fa, .carousel-control .icon-prev, .carousel-control .icon-next {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    margin-top: -17px;
+    margin-left: -9px; 
+}
+/*Fim: Banners Carousel*/
+
+/*Inicio: Corpo Clinico*/
+.barra-lateral{
+    border-right: 1px solid #09b0c6;
+}
+/*Fim: Corpo Clinico*/
+
+
+/*Inicio: Form Contato*/
+.form-control{
+    border-color: #09b5cc;    
+}
+
+.form-control:focus{
+    border-color: #09b5cc;    
+    box-shadow: inset 0 1px 1px rgba(9, 181, 204, 0.75), 0 0 8px rgba(9, 181, 204, 0.75);
+}
+/*Fim: Form Contato*/
+
+/*Inicio: Botão Agende Seu Horário*/
+.btn-outline-light {
+    color: #f8f9fa;
+    background-color: transparent;
+    background-image: none;
+    border-color: #f8f9fa;
+}
+  
+.btn-outline-light:hover {
+    color: #09b0c6;;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+  
+.btn-outline-light:focus, .btn-outline-light.focus {
+    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+}
+  
+.btn-outline-light.disabled, .btn-outline-light:disabled {
+    color: #f8f9fa;
+    background-color: transparent;
+}
+
+.btn-outline-light:not(:disabled):not(.disabled):active, .btn-outline-light:not(:disabled):not(.disabled).active,
+.show > .btn-outline-light.dropdown-toggle {
+    color: #09b0c6;;
+    background-color: #f8f9fa;
+    border-color: #f8f9fa;
+}
+  
+.btn-outline-light:not(:disabled):not(.disabled):active:focus, .btn-outline-light:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-light.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(248, 249, 250, 0.5);
+}
+ /*Fim: Botão Agende Seu Horário*/ 
+
+/*Inicio: Footer*/
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;       
+    line-height: 50px; 
+    background-color: #09b5cc;
+}
+
+.br-on-mobile {
+    display: none;
+}
+/*Fim: Footer*/
+
+/*Inicio: Mobile*/
+@media (max-width: 768px) {
+    
+    body{
+        font-size: 14px;        
+    }
+
+    section:before {
+        height: 50px;
+        content: "";
+        display:block;
+    }
+    
+    .titulo{
+        font-size: 30px;  
+    }
+
+    .sub-titulo{
+        font-size: 22px;        
+        
+    }
+
+    /*Inicio: Paddings*/
+    .pt-sm-0{
+        padding-top: 0;
+    }
+
+    .pt-sm-10{
+        padding-top: 10px;
+    }
+
+    .pb-sm-10{
+        padding-bottom: 10px;
+    }
+
+    .pt-sm-20{
+        padding-top: 20px;
+    }
+
+    .pt-sm-30{
+        padding-top: 30px;
+    }
+    /*Fim: Paddings*/
+
+    /*Inicio: NavBar*/
+    .navbar .nav-item{
+        font-size: 9px;
+    }   
+
+    #magic-line {
+        position: absolute;
+        bottom: 15px;
+        left: 0;
+        width: 90px;
+        height: 3px;              
+    }
+    /*Fim: NavBar*/
+  
+    /*Inicio: Corpo Clinico*/
+    .barra-lateral{
+        border-right: 0;
+    }
+    /*Fim: Corpo Clinico*/
+
+    /*Inicio: Redimencionando imagens*/
+    .logo-size{
+        width: 70px;
+        height: 29px;
+    }
+
+    .servicos-size{
+        width: 120px;
+        height: 120px;
+    }
+
+    .clinico-size{
+        width: 150px;
+        height: 150px;
+    }
+
+    .br-on-mobile {
+        display: inline;
+    }
+    /*Fim: Footer*/
+
+
+}
+
+/*Fim: Mobile*/
